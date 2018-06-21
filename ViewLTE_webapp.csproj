@@ -647,6 +647,7 @@
     <Content Include="Assets\scss\_gauge.scss" />
     <Content Include="Assets\scss\_switches.scss" />
     <Content Include="Assets\scss\_widgets.scss" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
