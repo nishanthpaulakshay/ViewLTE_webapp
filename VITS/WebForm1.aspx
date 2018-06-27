@@ -11,7 +11,22 @@
     <form id="form1" runat="server">
         
 <div>
-    <asp:GridView ID="GridView1" runat="server" CssClass="table table-hover table-striped"> 
+    <asp:GridView ID="GridView1" AutoGenerateColumns="false" runat="server" CssClass="table table-hover table-striped"> 
+        
+        <Columns>
+
+            <asp:BoundField DataField="Vcenter_domain" HeaderText="Domain"/>
+            <asp:BoundField DataField="Vcenter_Name" HeaderText="Vcenter" />
+
+            <asp:BoundField DataField="Vcenter_FID" HeaderText="FID" />
+            <asp:TemplateField>
+                <ItemTemplate>
+                    <asp:Button ID="SanctionedButton" Text="Sanctioned" runat="server" />
+                    <asp:Button ID="DeclineButton" Text="Decline" runat="server" />
+                </ItemTemplate>
+            </asp:TemplateField>
+        </Columns>
+
 
     </asp:GridView>
 </div>
