@@ -50,7 +50,8 @@
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>VITS</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-gear"></i><a href="#">Settings</a></li>
+                            <li><i class="fa fa-gear"></i><a href="/VITS/Settings">Settings</a></li>
+                            <li><i class="fa fa-gear"></i><a href="/VITS/Create_New_Master_Version">Create New Version</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
@@ -93,11 +94,18 @@
 
         </header><!-- /header -->
         <!-- Header-->
+      
     <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+ 
+
+
 
 
     </asp:ContentPlaceHolder>
             <!-- Footer -->
+
+         
+     
 <footer class="page-footer font-small blue pt-4 mt-4">
 
 
@@ -108,6 +116,7 @@
   <!-- Copyright -->
 
 </footer>
+        
 <!-- Footer -->
     </div><!-- /#right-panel -->
 

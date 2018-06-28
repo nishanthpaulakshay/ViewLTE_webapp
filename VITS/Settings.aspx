@@ -68,8 +68,8 @@
        <form id="form1" runat="server">
         <div class="animated fadeIn">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="card">
+                <div class="container-fluid">
+                    <div class="card ">
                         <div class="card-header">
                             <strong class="card-title">Vcenter Database</strong>
                         </div>
