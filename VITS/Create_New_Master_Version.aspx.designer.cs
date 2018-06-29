@@ -67,13 +67,13 @@ namespace ViewLTE_webapp.VITS {
         protected global::System.Web.UI.WebControls.Label MasterVM_Label;
         
         /// <summary>
-        /// MasterVM control.
+        /// MasterVM_input control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList MasterVM;
+        protected global::System.Web.UI.WebControls.DropDownList MasterVM_input;
         
         /// <summary>
         /// MasterVMver_Label control.
@@ -85,13 +85,13 @@ namespace ViewLTE_webapp.VITS {
         protected global::System.Web.UI.WebControls.Label MasterVMver_Label;
         
         /// <summary>
-        /// MasterVMver control.
+        /// MasterVMver_input control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox MasterVMver;
+        protected global::System.Web.UI.WebControls.TextBox MasterVMver_input;
         
         /// <summary>
         /// Cluster_Label control.
@@ -103,13 +103,13 @@ namespace ViewLTE_webapp.VITS {
         protected global::System.Web.UI.WebControls.Label Cluster_Label;
         
         /// <summary>
-        /// Cluster control.
+        /// Cluster_input control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList Cluster;
+        protected global::System.Web.UI.WebControls.DropDownList Cluster_input;
         
         /// <summary>
         /// Datastore_Label control.
@@ -121,13 +121,13 @@ namespace ViewLTE_webapp.VITS {
         protected global::System.Web.UI.WebControls.Label Datastore_Label;
         
         /// <summary>
-        /// Datastore control.
+        /// Datastore_input control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList Datastore;
+        protected global::System.Web.UI.WebControls.DropDownList Datastore_input;
         
         /// <summary>
         /// VirtualWire_Label control.
@@ -139,30 +139,30 @@ namespace ViewLTE_webapp.VITS {
         protected global::System.Web.UI.WebControls.Label VirtualWire_Label;
         
         /// <summary>
-        /// VirtualWire control.
+        /// VirtualWire_input control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList VirtualWire;
+        protected global::System.Web.UI.WebControls.DropDownList VirtualWire_input;
         
         /// <summary>
-        /// confirm_createversion control.
+        /// Create_Master_version control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button confirm_createversion;
+        protected global::System.Web.UI.WebControls.Button Create_Master_version;
         
         /// <summary>
-        /// Cancel_createversion control.
+        /// Cancel_Master_Version control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Cancel_createversion;
+        protected global::System.Web.UI.WebControls.Button Cancel_Master_Version;
     }
 }

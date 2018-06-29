@@ -13,30 +13,228 @@ namespace ViewLTE_webapp.VITS {
     public partial class Replicate_Master_Version {
         
         /// <summary>
-        /// form_replicate_masterversion control.
+        /// form2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form_replicate_masterversion;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form2;
         
         /// <summary>
-        /// confirm_createversion control.
+        /// Source_Domain_Label control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button confirm_createversion;
+        protected global::System.Web.UI.WebControls.Label Source_Domain_Label;
         
         /// <summary>
-        /// Cancel_createversion control.
+        /// Source_Domain_input control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Cancel_createversion;
+        protected global::System.Web.UI.WebControls.DropDownList Source_Domain_input;
+        
+        /// <summary>
+        /// Source_VC_Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Source_VC_Label;
+        
+        /// <summary>
+        /// Source_VC_input control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList Source_VC_input;
+        
+        /// <summary>
+        /// Source_MasterVM_Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Source_MasterVM_Label;
+        
+        /// <summary>
+        /// Source_MasterVM_input control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList Source_MasterVM_input;
+        
+        /// <summary>
+        /// Source_MasterVMver_Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Source_MasterVMver_Label;
+        
+        /// <summary>
+        /// Source_MasterVMver_input control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList Source_MasterVMver_input;
+        
+        /// <summary>
+        /// Source_MasterVMver_SS_Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Source_MasterVMver_SS_Label;
+        
+        /// <summary>
+        /// Source_MasterVMver_SS_input control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Source_MasterVMver_SS_input;
+        
+        /// <summary>
+        /// Source_MasterVMver_SS_desc_Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Source_MasterVMver_SS_desc_Label;
+        
+        /// <summary>
+        /// Source_MasterVMver_SS_desc_input control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Source_MasterVMver_SS_desc_input;
+        
+        /// <summary>
+        /// Destination_Domain_Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Destination_Domain_Label;
+        
+        /// <summary>
+        /// Destination_Domain_input control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList Destination_Domain_input;
+        
+        /// <summary>
+        /// Destination_VC_Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Destination_VC_Label;
+        
+        /// <summary>
+        /// Destination_VC_input control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList Destination_VC_input;
+        
+        /// <summary>
+        /// Destination_Cluster_Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Destination_Cluster_Label;
+        
+        /// <summary>
+        /// Destination_Cluster_input control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList Destination_Cluster_input;
+        
+        /// <summary>
+        /// Destination_Datastore_Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Destination_Datastore_Label;
+        
+        /// <summary>
+        /// Destination_Datastore_input control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList Destination_Datastore_input;
+        
+        /// <summary>
+        /// Destination_VirtualWire_Label control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Destination_VirtualWire_Label;
+        
+        /// <summary>
+        /// Destination_VirtualWire_input control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Destination_VirtualWire_input;
+        
+        /// <summary>
+        /// Create_Master_version control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Create_Master_version;
+        
+        /// <summary>
+        /// Cancel_Master_Version control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Cancel_Master_Version;
     }
 }

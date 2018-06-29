@@ -52,6 +52,8 @@
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="fa fa-gear"></i><a href="/VITS/Settings">Settings</a></li>
                             <li><i class="fa fa-gear"></i><a href="/VITS/Create_New_Master_Version">Create New Version</a></li>
+                            <li><i class="fa fa-gear"></i><a href="/VITS/Replicate_Master_Version">Replicate Master VM</a></li>
+                            
                         </ul>
                     </li>
                     <li class="menu-item-has-children dropdown">
@@ -76,7 +78,7 @@
 
     <!-- Right Panel -->
 
-    <div id="right-panel" class="right-panel">
+    <div id="right-panel" class="right-panel page-header">
 
         <!-- Header-->
         <header id="header" class="header">
