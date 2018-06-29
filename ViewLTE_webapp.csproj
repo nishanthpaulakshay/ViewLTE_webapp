@@ -688,6 +688,7 @@
     <Content Include="Starter.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="VITS\Create_New_Master_Version.aspx" />
+    <Content Include="VITS\Replicate_Master_Version.aspx" />
     <Content Include="VITS\Settings.aspx" />
     <Content Include="VITS\WebForm1.aspx" />
     <Content Include="VLTEaspx.aspx" />
@@ -774,6 +775,13 @@
     </Compile>
     <Compile Include="VITS\Create_New_Master_Version.aspx.designer.cs">
       <DependentUpon>Create_New_Master_Version.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VITS\Replicate_Master_Version.aspx.cs">
+      <DependentUpon>Replicate_Master_Version.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VITS\Replicate_Master_Version.aspx.designer.cs">
+      <DependentUpon>Replicate_Master_Version.aspx</DependentUpon>
     </Compile>
     <Compile Include="VITS\Settings.aspx.cs">
       <DependentUpon>Settings.aspx</DependentUpon>

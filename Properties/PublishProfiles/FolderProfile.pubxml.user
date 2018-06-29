@@ -6,7 +6,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <_PublishTargetUrl>G:\ViewLTE_webapp\ViewLTE_webapp\bin\Release\Publish</_PublishTargetUrl>
+    <_PublishTargetUrl>F:\ViewLTE_webapp\bin\Release\Publish</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include="About.aspx">
@@ -15,6 +15,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="ApplicationInsights.config">
       <publishTime>06/21/2018 09:43:02</publishTime>
     </File>
+    <File Include="App_Data/ViewLTE.mdf">
+      <publishTime>06/29/2018 07:12:14</publishTime>
+    </File>
+    <File Include="App_Data/ViewLTE_log.ldf">
+      <publishTime>06/29/2018 07:12:14</publishTime>
+    </File>
     <File Include="Assets/css/animate.css">
       <publishTime>06/21/2018 10:51:13</publishTime>
     </File>
@@ -22,7 +28,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/21/2018 10:51:13</publishTime>
     </File>
     <File Include="Assets/css/bootstrap.css">
-      <publishTime>06/21/2018 10:51:13</publishTime>
+      <publishTime>06/28/2018 21:54:46</publishTime>
     </File>
     <File Include="Assets/css/bootstrap.css.map">
       <publishTime>06/21/2018 10:51:13</publishTime>
@@ -1363,7 +1369,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/21/2018 10:51:19</publishTime>
     </File>
     <File Include="Assets/scss/style.css">
-      <publishTime>06/21/2018 11:43:27</publishTime>
+      <publishTime>06/28/2018 22:43:57</publishTime>
     </File>
     <File Include="Assets/scss/style.css.map">
       <publishTime>06/21/2018 10:51:19</publishTime>
@@ -1627,10 +1633,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/01/2018 12:20:56</publishTime>
     </File>
     <File Include="bin/ViewLTE_webapp.dll">
-      <publishTime>06/21/2018 15:35:06</publishTime>
+      <publishTime>06/29/2018 07:45:17</publishTime>
     </File>
     <File Include="bin/ViewLTE_webapp.pdb">
-      <publishTime>06/21/2018 15:35:06</publishTime>
+      <publishTime>06/29/2018 07:45:17</publishTime>
     </File>
     <File Include="bin/WebGrease.dll">
       <publishTime>01/23/2014 13:57:34</publishTime>
@@ -1642,31 +1648,37 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/21/2018 09:42:52</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css">
-      <publishTime>06/21/2018 09:42:55</publishTime>
+      <publishTime>06/22/2018 10:06:36</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css.map">
-      <publishTime>06/21/2018 09:42:55</publishTime>
+      <publishTime>06/22/2018 10:06:36</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.min.css">
-      <publishTime>06/21/2018 09:42:55</publishTime>
+      <publishTime>06/22/2018 10:06:36</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.min.css.map">
-      <publishTime>06/21/2018 09:42:55</publishTime>
+      <publishTime>06/22/2018 10:06:36</publishTime>
     </File>
     <File Include="Content/bootstrap.css">
-      <publishTime>06/21/2018 09:42:55</publishTime>
+      <publishTime>06/22/2018 10:06:36</publishTime>
     </File>
     <File Include="Content/bootstrap.css.map">
-      <publishTime>06/21/2018 09:42:55</publishTime>
+      <publishTime>06/22/2018 10:06:36</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css">
-      <publishTime>06/21/2018 09:42:55</publishTime>
+      <publishTime>06/22/2018 10:06:36</publishTime>
     </File>
     <File Include="Content/bootstrap.min.css.map">
-      <publishTime>06/21/2018 09:42:55</publishTime>
+      <publishTime>06/22/2018 10:06:36</publishTime>
+    </File>
+    <File Include="Content/sidemenu.css">
+      <publishTime>06/23/2018 11:03:06</publishTime>
     </File>
     <File Include="Content/Site.css">
       <publishTime>06/21/2018 09:42:52</publishTime>
+    </File>
+    <File Include="Datatable_test.aspx">
+      <publishTime>06/25/2018 15:47:42</publishTime>
     </File>
     <File Include="Default.aspx">
       <publishTime>06/21/2018 13:54:47</publishTime>
@@ -1675,28 +1687,28 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/21/2018 09:42:52</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.eot">
-      <publishTime>06/21/2018 09:42:55</publishTime>
+      <publishTime>06/22/2018 10:06:36</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.svg">
-      <publishTime>06/21/2018 09:42:55</publishTime>
+      <publishTime>06/22/2018 10:06:36</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.ttf">
-      <publishTime>06/21/2018 09:42:55</publishTime>
+      <publishTime>06/22/2018 10:06:36</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff">
-      <publishTime>06/21/2018 09:42:55</publishTime>
+      <publishTime>06/22/2018 10:06:36</publishTime>
     </File>
     <File Include="fonts/glyphicons-halflings-regular.woff2">
-      <publishTime>06/21/2018 09:42:55</publishTime>
+      <publishTime>06/22/2018 10:06:36</publishTime>
     </File>
     <File Include="Global.asax">
       <publishTime>06/21/2018 09:42:52</publishTime>
     </File>
     <File Include="Scripts/bootstrap.js">
-      <publishTime>06/21/2018 09:42:55</publishTime>
+      <publishTime>06/22/2018 10:06:37</publishTime>
     </File>
     <File Include="Scripts/bootstrap.min.js">
-      <publishTime>06/21/2018 09:42:55</publishTime>
+      <publishTime>06/22/2018 10:06:37</publishTime>
     </File>
     <File Include="Scripts/jquery-3.3.1.js">
       <publishTime>06/21/2018 09:42:54</publishTime>
@@ -1782,6 +1794,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/WebForms/WebUIValidation.js">
       <publishTime>06/21/2018 09:42:58</publishTime>
     </File>
+    <File Include="SideMenu.html">
+      <publishTime>06/23/2018 11:24:24</publishTime>
+    </File>
     <File Include="Site.Master">
       <publishTime>06/21/2018 09:43:01</publishTime>
     </File>
@@ -1792,7 +1807,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>06/21/2018 13:53:11</publishTime>
     </File>
     <File Include="ViewLTE.Master">
-      <publishTime>06/21/2018 13:52:35</publishTime>
+      <publishTime>06/29/2018 07:09:05</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>06/21/2018 09:43:01</publishTime>
@@ -1800,11 +1815,23 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="ViewSwitcher.ascx">
       <publishTime>06/21/2018 09:42:59</publishTime>
     </File>
+    <File Include="VITS/Create_New_Master_Version.aspx">
+      <publishTime>06/29/2018 07:09:53</publishTime>
+    </File>
+    <File Include="VITS/Replicate_Master_Version.aspx">
+      <publishTime>06/29/2018 07:13:33</publishTime>
+    </File>
+    <File Include="VITS/Settings.aspx">
+      <publishTime>06/29/2018 07:11:42</publishTime>
+    </File>
+    <File Include="VITS/WebForm1.aspx">
+      <publishTime>06/28/2018 21:54:46</publishTime>
+    </File>
     <File Include="VLTEaspx.aspx">
       <publishTime>06/21/2018 13:34:45</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>06/21/2018 15:35:07</publishTime>
+      <publishTime>06/29/2018 07:45:18</publishTime>
     </File>
   </ItemGroup>
 </Project>

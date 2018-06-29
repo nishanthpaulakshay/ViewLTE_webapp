@@ -26,6 +26,8 @@
         </div>
 
     <!-- Breadcrumb --> 
+    <!-- .content -->
+        <div class="content mt-3">         
 
 
      
@@ -104,14 +106,7 @@
                                     </td>
                                     
                                 </tr>
-                                <tr>
-                                    <td>
 
-                                    </td>
-                                    <td>
-
-                                    </td>
-                                </tr>
                             </table>
                     </div>
                  
@@ -127,4 +122,6 @@
 
         </center>
     </form>
+
+        </div><!-- .content -->
 </asp:Content>

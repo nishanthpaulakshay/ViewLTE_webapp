@@ -65,6 +65,10 @@
                 </div>
             </div>
         </div>
+
+        <!-- Breadcrumb --> 
+    <!-- .content -->
+        <div class="content mt-3">   
        <form id="form1" runat="server">
         <div class="animated fadeIn">
             <div class="row">
@@ -102,5 +106,6 @@
             </div>
            </div>
          </form>
+            </div>
 </asp:Content>
 
